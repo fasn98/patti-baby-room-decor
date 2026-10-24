@@ -55,7 +55,7 @@ Observação: o GitHub Pages não pode ser usado como loja online (venda e pagam
 
 ## Vídeo
 
-O vídeo em português tem narração de uma voz da biblioteca da ElevenLabs ("Letícia"), gerada numa conta paga, que permite uso comercial. A voz não pertence a ninguém da família. O vídeo em alemão tem só legendas, sem narração. Para trocar um vídeo, substitua o arquivo em `video/` mantendo o mesmo nome (`patti-de.mp4` ou `patti-pt.mp4`). Se o novo vídeo alemão tiver som, apague `data-silent="1"` na linha do vídeo em `index.html` para o botão de som aparecer.
+Os vídeos têm narração de vozes da biblioteca da ElevenLabs ("Letícia" em português, "Marlena Lark" em alemão), geradas numa conta paga, que permite uso comercial. As vozes não pertencem a ninguém da família. Para trocar um vídeo, substitua o arquivo em `video/` mantendo o mesmo nome (`patti-de.mp4` ou `patti-pt.mp4`).
 
 ---
 
@@ -111,4 +111,4 @@ Hinweis: GitHub Pages ist nicht für Online-Shops mit Bezahlung auf der Seite ge
 
 ## Video
 
-Das portugiesische Video wird von einer Stimme aus der ElevenLabs-Bibliothek („Letícia“) gesprochen, erstellt mit einem bezahlten Konto, das kommerzielle Nutzung erlaubt. Das deutsche Video hat nur Untertitel, ohne Sprecherin. Zum Austauschen die Datei in `video/` mit gleichem Namen ersetzen. Hat ein neues deutsches Video Ton, in `index.html` beim deutschen Video `data-silent="1"` löschen, damit der Ton-Button erscheint.
+Die Videos werden von Stimmen aus der ElevenLabs-Bibliothek gesprochen („Letícia“ auf Portugiesisch, „Marlena Lark“ auf Deutsch), erstellt mit einem bezahlten Konto, das kommerzielle Nutzung erlaubt. Zum Austauschen die Datei in `video/` mit gleichem Namen ersetzen.
