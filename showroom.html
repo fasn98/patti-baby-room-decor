@@ -1,0 +1,27 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>3D-Showroom · Patti Baby Room Decor</title><link rel="stylesheet" href="style.css"><style>
+html,body{height:100%}body{overflow:hidden;display:flex;flex-direction:column}
+#stage{position:relative;flex:1;min-height:0;background:#f3ece6;touch-action:none}
+#stage canvas{display:block;width:100%;height:100%;outline:none}
+.bar{display:flex;gap:.5rem;justify-content:center;align-items:center;flex-wrap:wrap;padding:.6rem 1rem;background:var(--cream)}
+.tab{border:1px solid var(--teal);background:#fff;color:var(--teal);border-radius:22px;padding:.45rem 1rem;font:600 .95rem 'Quicksand',sans-serif;cursor:pointer}
+.tab[aria-pressed=true]{background:var(--teal);color:#fff}
+.hint{position:absolute;left:50%;top:14px;transform:translateX(-50%);background:#fffaf5e6;padding:.45rem .9rem;border-radius:20px;font-size:.88rem;box-shadow:0 2px 10px #0001;pointer-events:none;transition:opacity .6s;white-space:nowrap;max-width:92%;overflow:hidden;text-overflow:ellipsis}
+.nav{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);display:flex;gap:.6rem;align-items:center}
+.nav button{width:46px;height:46px;border-radius:50%;border:0;background:#fffaf5ee;color:var(--teal);font-size:1.3rem;box-shadow:0 2px 10px #0002;cursor:pointer}
+.nav .lbl{background:#fffaf5ee;border-radius:20px;padding:.5rem .9rem;font-size:.9rem;box-shadow:0 2px 10px #0002;min-width:9rem;text-align:center}
+#loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:1.05rem;background:#f3ece6;transition:opacity .5s}
+#nogl{display:none;padding:2rem;text-align:center}
+dialog{border:0;border-radius:18px;padding:0;max-width:min(92vw,560px);width:100%;max-height:92vh;overflow:auto;box-shadow:0 10px 40px #0003;color:var(--text)}
+dialog::backdrop{background:#5a4a4a88}
+dialog img{display:block;width:100%;max-height:52vh;object-fit:contain;background:#f6efe9}
+dialog .in{padding:1rem 1.2rem 1.3rem}dialog h3{margin:.1rem 0 .3rem}dialog p{margin:.2rem 0 .8rem}
+dialog .row{display:flex;gap:.6rem;flex-wrap:wrap}.ghost{background:none;border:1px solid var(--teal);color:var(--teal);border-radius:30px;padding:.7rem 1.3rem;cursor:pointer;margin-top:1rem;font:inherit}dialog .row{align-items:center}
+</style></head><body class="de"><header><a href="index.html"><img src="img/logo.jpg" alt="Logo"></a><nav><a href="index.html#galerie"><span lang="de">Galerie</span><span lang="pt">Galeria</span></a><a href="showroom.html"><span lang="de">3D-Showroom</span><span lang="pt">Showroom 3D</span></a><a href="index.html#kontakt"><span lang="de">Kontakt</span><span lang="pt">Contato</span></a></nav><div class="lang"><button onclick="L('de')">DE</button> <button onclick="L('pt')">PT</button></div></header>
+<div class="bar"><button class="tab" data-room="rosa" aria-pressed="true"><span lang="de">Rosa Zimmer</span><span lang="pt">Quarto rosa</span></button><button class="tab" data-room="azul" aria-pressed="false"><span lang="de">Blau-grünes Zimmer</span><span lang="pt">Quarto azul e verde</span></button></div>
+<div id="stage"><div id="loading"><span lang="de">Zimmer wird eingerichtet …</span><span lang="pt">Montando o quarto…</span></div>
+<div class="hint" id="hint"><span lang="de">Ziehen zum Umsehen · Stück antippen</span><span lang="pt">Arraste para olhar em volta · toque numa peça</span></div>
+<div class="nav"><button id="prev" aria-label="Zurück">‹</button><div class="lbl" id="lbl">–</div><button id="next" aria-label="Weiter">›</button></div>
+<div id="nogl"><span lang="de">Ihr Browser unterstützt kein 3D (WebGL). Alle Stücke finden Sie in der <a href="index.html#galerie">Galerie</a>.</span><span lang="pt">Seu navegador não suporta 3D (WebGL). Veja todas as peças na <a href="index.html#galerie">galeria</a>.</span></div></div>
+<dialog id="dlg"><img id="dimg" alt=""><div class="in"><h3 id="dtitle"></h3><p id="ddesc"></p><div class="row"><a class="btn" id="dmail" href="#"><span lang="de">Dieses Stück anfragen</span><span lang="pt">Pedir esta peça</span></a><button class="ghost" onclick="dlg.close()"><span lang="de">Schließen</span><span lang="pt">Fechar</span></button></div></div></dialog>
+<script>function L(l){document.body.className=l;document.documentElement.lang=l;try{localStorage.lang=l}catch(e){}window.dispatchEvent(new Event('langchange'))}try{if(localStorage.lang)L(localStorage.lang)}catch(e){}</script>
+<script type="module" src="js/showroom.js"></script></body></html>
