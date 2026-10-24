@@ -26,7 +26,7 @@ Os trechos marcados em amarelo no site são provisórios:
 
 1. **Impressum** (`impressum.html`): nome completo, endereço para correspondência, e-mail, telefone e, se for o caso, o aviso de Kleinunternehmerin (§ 19 UStG). É obrigatório para site comercial na Alemanha (§ 5 DDG).
 2. **Datenschutzerklärung** (`datenschutz.html`): pode ser gerada num gerador gratuito (por exemplo, o da e-recht24). Informe: responsável, provedor de hospedagem (GitHub Pages ou outro), contato por e-mail. O site não usa Google Fonts, cookies nem ferramentas de análise; só guarda no navegador o idioma escolhido (DE/PT).
-3. **Sobre mim** (`index.html`): o texto de apresentação.
+3. **Sobre mim** (`index.html`): já tem um texto baseado no seu currículo. Revise e ajuste como preferir.
 4. **Contato** (`index.html`): WhatsApp, Instagram e link da Etsy. Se não usar algum, apague o trecho.
 5. **Logo**: o logo atual diz "Patty for baby decor", e o nome do site é "Patti Baby Room Decor". Vale escolher uma grafia só.
 
@@ -83,7 +83,7 @@ Die Seite ist statisch: kein Server, keine Datenbank, keine Cookies, kein Tracki
 
 1. **Impressum** (`impressum.html`): vollständiger Name, ladungsfähige Anschrift, E-Mail, Telefon, ggf. Hinweis Kleinunternehmerin (§ 19 UStG). Pflicht für geschäftliche Websites (§ 5 DDG).
 2. **Datenschutzerklärung** (`datenschutz.html`): z. B. mit einem kostenlosen Generator (etwa e-recht24) erstellen. Angeben: Verantwortliche, Hosting-Anbieter (GitHub Pages o. a.), Kontakt per E-Mail. Die Seite nutzt keine Google Fonts, keine Cookies und keine Analyse-Tools; im Browser wird nur die gewählte Sprache (DE/PT) gespeichert.
-3. **Über mich** (`index.html`): Vorstellungstext.
+3. **Über mich** (`index.html`): enthält bereits einen Text auf Basis deines Lebenslaufs. Bitte prüfen und nach Wunsch anpassen.
 4. **Kontakt** (`index.html`): WhatsApp, Instagram, Etsy-Link. Nicht genutzte Einträge löschen.
 5. **Logo**: Das Logo zeigt „Patty for baby decor“, die Website heißt „Patti Baby Room Decor“. Am besten eine Schreibweise festlegen.
 
