@@ -50,6 +50,7 @@ Observação: o GitHub Pages não pode ser usado como loja online (venda e pagam
 - **Trocar ou incluir fotos na galeria**: coloque a foto em `img/` e copie uma linha `<img src="img/...">` em `index.html`, na categoria certa.
 - **Peças do showroom 3D**: em `js/showroom.js`, a lista `ROOMS` diz qual foto vai em qual parede (`wall: 'n' | 'e' | 'w' | 's'`), a posição (`u`, `y`) e o tamanho (`s`, em metros). Para trocar uma peça, mude o nome da foto em `img:`.
 - **Textos**: cada texto aparece duas vezes, uma em `<span lang="de">` e outra em `<span lang="pt">`. Mude os dois.
+- **Sua foto no "Sobre mim"**: salve a foto como `img/patricia.jpg` (de preferência vertical). Ela aparece sozinha, numa moldura arredondada ao lado do texto. Sem esse arquivo, o espaço fica invisível.
 - **Cores**: no começo de `style.css` (`--rose`, `--cream`, `--sage`, `--teal`, `--text`).
 - **E-mail**: procure `patti.babyroomdecor@gmail.com` em `index.html`, `impressum.html` e `js/showroom.js`.
 
@@ -107,6 +108,7 @@ Hinweis: GitHub Pages ist nicht für Online-Shops mit Bezahlung auf der Seite ge
 - **Galerie**: Foto in `img/` legen und eine `<img src="img/...">`-Zeile in `index.html` ergänzen.
 - **3D-Showroom**: In `js/showroom.js` legt die Liste `ROOMS` fest, welches Foto an welcher Wand hängt (`wall`), wo (`u`, `y`) und wie groß (`s`, in Metern).
 - **Texte**: Jeder Text steht zweimal da, in `<span lang="de">` und `<span lang="pt">`.
+- **Dein Foto bei „Über mich“**: Foto als `img/patricia.jpg` speichern (am besten im Hochformat). Es erscheint automatisch in einem abgerundeten Rahmen neben dem Text. Ohne diese Datei bleibt der Platz unsichtbar.
 - **Farben**: am Anfang von `style.css`.
 
 ## Video

@@ -21,3 +21,6 @@ footer{background:var(--sage);text-align:center;padding:1.5rem}footer a{color:va
 .vwrap video{width:100%;height:100%;display:block;object-fit:cover}
 .sound{position:absolute;right:12px;bottom:12px;border:0;border-radius:24px;padding:.55rem 1rem;background:#fffaf5ee;color:var(--text);font:600 .95rem 'Quicksand',sans-serif;cursor:pointer;box-shadow:0 2px 10px #0002}
 .teaser{text-align:center}.teaser p{max-width:640px;margin:0 auto}
+.me-wrap{display:flex;gap:2rem;align-items:center;flex-wrap:wrap}.me-text{flex:1 1 320px;min-width:0}
+.me{margin:0;flex:0 0 auto}.me[hidden]{display:none}.me img{width:min(260px,70vw);aspect-ratio:4/5;object-fit:cover;border-radius:50% 50% 18px 18px;border:6px solid #fff;box-shadow:0 6px 24px #c78a8f33;display:block;margin:auto}
+@media(max-width:700px){.me{flex-basis:100%}}
